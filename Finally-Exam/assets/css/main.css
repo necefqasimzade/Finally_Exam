@@ -1,0 +1,359 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.mynavbar {
+  padding: 20px;
+  max-width: 1140px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.mynavbar .menu_bars {
+  font-size: 20px;
+  display: none;
+}
+.mynavbar .navbar_menu .menu_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+}
+.mynavbar .navbar_menu .menu_box a {
+  color: black;
+  font-size: 20px;
+}
+.mynavbar .navbar_menu .menu_box a:hover {
+  transition: 0.5s;
+  color: #7db9e8;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar_menu {
+    display: none;
+  }
+  .mynavbar .menu_bars {
+    display: block;
+  }
+}
+.special_offer_section .special_container {
+  color: white;
+  padding-top: 205px;
+  padding-bottom: 190px;
+  background-image: url(https://preview.colorlib.com/theme/drimo/drimo/img/banner/server-banner.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.special_offer_section .special_container .special_text h1 {
+  text-align: center;
+  width: 500px;
+  margin-bottom: 60px;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #fc6428;
+}
+.special_offer_section .special_container .BEST_WEB_HOSTING_BOX {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+.special_offer_section .special_container .BEST_WEB_HOSTING_BOX div h3 {
+  font-size: 50px;
+  font-weight: 500;
+}
+.special_offer_section .special_container .BEST_WEB_HOSTING_BOX div h4 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.special_offer_section .special_container .BEST_WEB_HOSTING_BOX div p {
+  font-size: 20px;
+  font-weight: 100;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.special_offer_section .special_container .BEST_WEB_HOSTING_BOX button {
+  color: white;
+  font-size: 20px;
+  border: 1px solid #fc5a1a;
+  width: 200px;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: #fc5a1a;
+}
+.special_offer_section .special_container .BEST_WEB_HOSTING_BOX .summon_box {
+  color: white;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.special_offer_section .special_container .BEST_WEB_HOSTING_BOX .summon_box a {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.special_offer_section .special_container .BEST_WEB_HOSTING_BOX img {
+  width: 292px;
+  height: 284px;
+}
+
+@media screen and (max-width: 992px) {
+  .BEST_WEB_HOSTING_BOX {
+    display: flex;
+    flex-direction: column;
+  }
+  .summon_box {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.our_service_section {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.our_service_section p {
+  color: #6b6d6f;
+}
+.our_service_section .our_service_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.our_service_section .our_service_container .LOREM_TEXT {
+  max-width: 555px;
+  margin: auto;
+  font-size: 14px;
+  line-height: 26px;
+  color: #6b6d6f;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.28px;
+}
+.our_service_section .our_service_container .LOREM_TEXT .tempor {
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+.our_service_section .our_service_container .service_text h2 {
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  color: #424242;
+  padding-bottom: 20px;
+}
+.our_service_section .our_service_container .service_text hr {
+  text-align: center;
+  width: 100px;
+}
+.our_service_section .our_service_container .items_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.our_service_section .our_service_container .items_box h4 {
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  color: #424242;
+}
+.our_service_section .our_service_container .items_box div {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.our_service_section .our_service_container .items_box div img {
+  width: 60px;
+}
+
+@media screen and (max-width: 992px) {
+  .items_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 320px) {
+  .items_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+.HAPPY_CLIENT_section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #7db9e8;
+  margin: 0 auto;
+}
+.HAPPY_CLIENT_section h2 {
+  font-size: 35px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+.HAPPY_CLIENT_section p {
+  max-width: 555px;
+  margin: auto;
+  font-size: 14px;
+  line-height: 26px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.28px;
+}
+.HAPPY_CLIENT_section .HAPPY_container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.HAPPY_CLIENT_section .HAPPY_container .tempor {
+  margin-left: 30px;
+}
+.HAPPY_CLIENT_section .HAPPY_container .number_item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.HAPPY_CLIENT_section .HAPPY_container .number_item h4 {
+  color: white;
+}
+.HAPPY_CLIENT_section .HAPPY_container .number_item p {
+  font-size: 17px;
+  color: white;
+}
+.HAPPY_CLIENT_section .HAPPY_container .number_item .icon_text {
+  display: flex;
+}
+.HAPPY_CLIENT_section .HAPPY_container .number_item div {
+  margin-top: 50px;
+  font-size: 30PX;
+  width: 250PX;
+}
+.HAPPY_CLIENT_section .HAPPY_container .number_item div i {
+  color: #7db9e8;
+  font-size: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 66px;
+  width: 66px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.LATEST_NEWS_section {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  gap: 10px;
+}
+.LATEST_NEWS_section h2 {
+  font-size: 35px;
+  color: #424242;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+.LATEST_NEWS_section .tempor {
+  margin-left: 30px;
+}
+.LATEST_NEWS_section p {
+  max-width: 555px;
+  margin: auto;
+  font-size: 14px;
+  line-height: 26px;
+  color: #6b6d6f;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.28px;
+}
+.LATEST_NEWS_section .container_LATEST {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.LATEST_NEWS_section .container_LATEST .cards_box {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.LATEST_NEWS_section .container_LATEST .cards_box div {
+  border: 0.5px solid #e8e8e8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.LATEST_NEWS_section .container_LATEST .cards_box div h4 {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #424242;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  padding-bottom: 15px;
+}
+
+@media screen and (max-width: 576px) {
+  .cards_box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+footer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer div p {
+  color: #6b6d6f;
+  font-size: 26px;
+  line-height: 26px;
+  letter-spacing: 0.32px;
+  border-top: 1px solid #e8e8e8;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}/*# sourceMappingURL=main.css.map */

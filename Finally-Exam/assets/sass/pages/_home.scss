@@ -1,0 +1,354 @@
+.special_offer_section {
+  .special_container {
+    color: white;
+    padding-top: 205px;
+    padding-bottom: 190px;
+    background-image: url(https://preview.colorlib.com/theme/drimo/drimo/img/banner/server-banner.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .special_text {
+      h1 {
+        text-align: center;
+        width: 500px;
+        margin-bottom: 60px;
+        color: white;
+        padding: 20px;
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: #fc6428;
+      }
+    }
+
+    .BEST_WEB_HOSTING_BOX {
+      max-width: 1140px;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      gap: 30px;
+
+      div {
+        h3 {
+          font-size: 50px;
+          font-weight: 500;
+        }
+
+        h4 {
+          font-size: 40px;
+          font-weight: bold;
+        }
+
+        p {
+          font-size: 20px;
+          font-weight: 100;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+      }
+
+      button {
+        color: white;
+        font-size: 20px;
+        border: 1px solid #fc5a1a;
+        width: 200px;
+        padding: 20px;
+        margin-top: 40px;
+        background-color: #fc5a1a;
+      }
+
+      .summon_box {
+        color: white;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        a {
+          font-size: 20px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          color: white;
+        }
+      }
+
+      img {
+        width: 292px;
+        height: 284px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .BEST_WEB_HOSTING_BOX {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .summon_box {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+.our_service_section {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  p {
+    color: #6b6d6f;
+  }
+
+  .our_service_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+    .LOREM_TEXT {
+      max-width: 555px;
+      margin: auto;
+      font-size: 14px;
+      line-height: 26px;
+      color: #6b6d6f;
+      font-family: "Poppins", sans-serif;
+      letter-spacing: .28px;
+
+      .tempor {
+        margin-left: 30px;
+        margin-bottom: 40px;
+      }
+    }
+
+    .service_text {
+      h2 {
+        font-size: 35px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        color: #424242;
+        padding-bottom: 20px;
+
+      }
+
+      hr {
+        text-align: center;
+        width: 100px;
+      }
+    }
+
+    .items_box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+
+      h4 {
+        font-size: 22px;
+        font-family: "Montserrat", sans-serif;
+        color: #424242;
+      }
+
+      div {
+        img {
+          width: 60px;
+
+        }
+
+        width: 250px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+
+  .items_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 320px) {
+
+  .items_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+.HAPPY_CLIENT_section {
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #7db9e8;
+  margin: 0 auto;
+
+  h2 {
+    font-size: 35px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+  }
+
+  p {
+    max-width: 555px;
+    margin: auto;
+    font-size: 14px;
+    line-height: 26px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: .28px;
+  }
+
+  .HAPPY_container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .tempor {
+      margin-left: 30px;
+    }
+
+    .number_item {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+
+      h4 {
+        color: white;
+      }
+
+      p {
+        font-size: 17px;
+        color: white;
+      }
+
+      .icon_text {
+        display: flex;
+      }
+
+      div {
+        margin-top: 50px;
+        font-size: 30PX;
+        width: 250PX;
+
+        i {
+          color: #7db9e8;
+          font-size: 34px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 66px;
+          width: 66px;
+          background-color: white;
+          padding: 5px;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
+
+.LATEST_NEWS_section {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  gap: 10px;
+
+  h2 {
+    font-size: 35px;
+    color: #424242;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+  }
+
+  .tempor {
+    margin-left: 30px;
+  }
+
+  p {
+    max-width: 555px;
+    margin: auto;
+    font-size: 14px;
+    line-height: 26px;
+    color: #6b6d6f;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: .28px;
+  }
+
+  .container_LATEST {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    .cards_box {
+
+      margin-top: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+
+      div {
+        border: 0.5px solid #e8e8e8;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h4 {
+          margin-top: 20px;
+          font-size: 18px;
+          color: #424242;
+          font-family: "Montserrat", sans-serif;
+          font-weight: normal;
+          padding-bottom: 15px;
+        }
+      }
+
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .cards_box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+  }
+}
